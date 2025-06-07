@@ -7,6 +7,12 @@
     --font-family: "Outfit", sans-serif;
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: var(--font-family), sans-serif;
     background: var(--background-color);
@@ -25,55 +31,26 @@ body {
     padding: 1.5rem;
     text-align: center;
     width: 100%;
-    max-width: 25rem;
-    min-width: 0;
-    /*box-sizing: border-box;*/
+    max-width: 20rem;
 }
 
 .qr-image {
     border-radius: 10px;
     width: 100%;
-    scale: 0.75;
-}
-
-.card-content{
-    /*margin-top: 1.5rem;*/
+    max-width: 12rem; /* Set a fixed maximum width for the QR image */
+    margin: 0 auto 1rem; /* Center the image and add spacing below */
 }
 
 .title {
-    /*margin-top: 1rem;*/
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--text-color-secondary);
+    margin-top: 1rem;
 }
 
 .description {
-    /*margin-top: 1rem;*/
-    font-size: 1rem;
+    font-size: 0.875rem;
     font-weight: 400;
     color: var(--text-color-primary);
     line-height: 1.5;
-}
-
-@media (max-width: 480px) {
-    .card {
-        padding: 1rem; /* Reduce padding */
-        width: 90%; /* Adjust width for smaller screens */
-        max-width: 20rem; /* Limit max width */
-    }
-
-    .qr-image {
-        scale: 0.6; /* Reduce QR image size */
-        margin-bottom: 0.75rem; /* Adjust margin */
-    }
-
-    .title {
-        font-size: 1rem; /* Reduce font size */
-        margin-top: 0.75rem; /* Adjust margin */
-    }
-
-    .description {
-        font-size: 0.875rem; /* Reduce font size */
-        margin-top: 0.5rem; /* Adjust margin */
-    }
 }
