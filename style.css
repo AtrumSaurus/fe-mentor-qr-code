@@ -28,7 +28,7 @@ body {
     background: var(--card-background-color);
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: center;
     width: 100%;
     max-width: 20rem;
@@ -37,19 +37,20 @@ body {
 .qr-image {
     border-radius: 10px;
     width: 100%;
-    max-width: 12rem; /* Set a fixed maximum width for the QR image */
+    /*max-width: 12rem; !* Set a fixed maximum width for the QR image *!*/
     margin: 0 auto 1rem; /* Center the image and add spacing below */
 }
 
 .title {
-    font-size: 1.25rem;
+    /*font-size: 1.25rem;*/
     font-weight: 700;
     color: var(--text-color-secondary);
-    margin-top: 1rem;
+    /*margin-top: 1rem;*/
 }
 
 .description {
-    font-size: 0.875rem;
+    margin-top: 1rem;
+    font-size: 15px;
     font-weight: 400;
     color: var(--text-color-primary);
     line-height: 1.5;
