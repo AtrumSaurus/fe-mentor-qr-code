@@ -1,0 +1,52 @@
+:root {
+    --primary-color: hsl(212, 45%, 89%);
+    --card-background-color: hsl(0, 0%, 100%);
+    --background-color: #D5E1EF;
+    --text-color-primary: hsl(216, 15%, 48%);
+    --text-color-secondary: hsl(218, 44%, 22%);
+    --font-family: "Outfit", sans-serif;
+}
+
+body {
+    font-family: var(--font-family), sans-serif;
+    background: var(--background-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: var(--card-background-color);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    width: 100%;
+    max-width: 320px;
+    min-width: 0;
+    /*box-sizing: border-box;*/
+}
+
+.qr-image {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-color-secondary);
+}
+
+.description {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-color-primary);
+    line-height: 1.5;
+}
