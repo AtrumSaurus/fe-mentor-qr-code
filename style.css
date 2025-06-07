@@ -25,7 +25,7 @@ body {
     padding: 1.5rem;
     text-align: center;
     width: 100%;
-    max-width: 320px;
+    max-width: 25rem;
     min-width: 0;
     /*box-sizing: border-box;*/
 }
@@ -33,20 +33,47 @@ body {
 .qr-image {
     border-radius: 10px;
     width: 100%;
-    height: auto;
+    scale: 0.75;
+}
+
+.card-content{
+    /*margin-top: 1.5rem;*/
 }
 
 .title {
-    margin-top: 1.5rem;
+    /*margin-top: 1rem;*/
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--text-color-secondary);
 }
 
 .description {
-    margin-top: 1rem;
+    /*margin-top: 1rem;*/
     font-size: 1rem;
     font-weight: 400;
     color: var(--text-color-primary);
     line-height: 1.5;
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: 1rem; /* Reduce padding */
+        width: 90%; /* Adjust width for smaller screens */
+        max-width: 20rem; /* Limit max width */
+    }
+
+    .qr-image {
+        scale: 0.6; /* Reduce QR image size */
+        margin-bottom: 0.75rem; /* Adjust margin */
+    }
+
+    .title {
+        font-size: 1rem; /* Reduce font size */
+        margin-top: 0.75rem; /* Adjust margin */
+    }
+
+    .description {
+        font-size: 0.875rem; /* Reduce font size */
+        margin-top: 0.5rem; /* Adjust margin */
+    }
 }
