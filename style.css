@@ -38,21 +38,21 @@ body {
     border-radius: 10px;
     width: 100%;
     /*max-width: 12rem; !* Set a fixed maximum width for the QR image *!*/
-    margin: 0 auto 1rem; /* Center the image and add spacing below */
 }
 
 .title {
     /*font-size: 1.25rem;*/
     font-weight: 700;
     color: var(--text-color-secondary);
-    /*margin-top: 1rem;*/
+    margin-top: 1.9rem;
 }
 
 .description {
-    margin-top: 1rem;
+    margin-top: 1.25rem;
     font-size: 15px;
     font-weight: 400;
     color: var(--text-color-primary);
-    line-height: 1.5;
-    margin-bottom: 1.25rem;
+    /*line-height: 1.5;*/
+    margin-bottom: 1.75rem;
+    padding: 0.5rem
 }
