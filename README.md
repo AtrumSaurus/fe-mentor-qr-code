@@ -1,4 +1,5 @@
 # Frontend Mentor - QR code component
+[![pages-build-deployment](https://github.com/AtrumSaurus/fe-mentor-qr-code/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/AtrumSaurus/fe-mentor-qr-code/actions/workflows/pages/pages-build-deployment)
 
 ![Design preview for the QR code component coding challenge](./preview.jpg)
 
